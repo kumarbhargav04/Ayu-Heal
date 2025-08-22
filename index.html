@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayurvedic Plant Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">🌿</div>
+        <div>
+          <h1>AyuHeal</h1>
+          <div class="tagline">Search plants ↔ diseases • learn uses, prep & safety</div>
+        </div>
+      </div>
+      <div>
+        <button id="themeToggle" class="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="logoutBtn" class="pill secondary" style="margin-left: 1rem;">Logout</button>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <div class="search">
+        <i class="fas fa-search"></i>
+        <input type="search" id="q" placeholder="Search disease (e.g., diabetes, cold, anxiety)…" autocomplete="off">
+        <button id="clearBtn" class="clear" aria-label="Clear search"><i class="fas fa-times"></i></button>
+        <button id="voiceBtn" class="voice" aria-label="Voice search"><i class="fas fa-microphone"></i></button>
+      </div>
+      <div class="tabs">
+        <button id="tab-disease" class="tab" aria-selected="true">By Disease</button>
+        <button id="tab-plant" class="tab" aria-selected="false">By Plant</button>
+      </div>
+      <div class="filters">
+        <select id="system">
+          <option value="">All body systems</option>
+          <option value="Respiratory">Respiratory</option>
+          <option value="Digestive">Digestive</option>
+          <option value="Metabolic">Metabolic</option>
+          <option value="Cardiovascular">Cardiovascular</option>
+          <option value="Nervous">Nervous</option>
+          <option value="Immune">Immune</option>
+          <option value="Dermatological">Dermatological</option>
+          <option value="Hepatic">Hepatic</option>
+          <option value="General">General</option>
+        </select>
+        <button id="resetFilters" class="btn">Reset</button>
+      </div>
+    </div>
+
+    <main>
+      <section id="grid" class="grid"></section>
+      <section id="empty" class="empty" hidden>
+        <i class="fas fa-leaf"></i>
+        <p>No matches yet. Try "cold", "diabetes", or plant names like "Tulsi", "Ashwagandha".</p>
+      </section>
+    </main>
+
+    <dialog id="detailsDialog">
+      <div class="dialog-head">
+        <div>
+          <h2 id="dlgTitle"></h2>
+          <div id="dlgLatin" class="latin"></div>
+        </div>
+        <button id="closeDialog" aria-label="Close dialog"><i class="fas fa-times"></i></button>
+      </div>
+      <div id="dlgBody" class="dialog-body">
+        <div class="plant-image">
+          <img id="plantImage" src="" alt="">
+        </div>
+        <div id="plantDetails" class="pairs"></div>
+      </div>
+    </dialog>
+
+    <footer class="notice">
+      <i class="fas fa-info-circle"></i> Educational use only. Not medical advice. Always consult a qualified practitioner.
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

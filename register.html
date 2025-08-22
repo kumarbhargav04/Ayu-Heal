@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Ayurvedic Plant Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">🌿</div>
+        <div>
+          <h1>Ayurvedic Plant Finder</h1>
+          <div class="tagline">Search plants ↔ diseases • learn uses, prep & safety</div>
+        </div>
+      </div>
+      <button id="themeToggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
+    </header>
+    <main style="display: flex; justify-content: center; align-items: center; min-height: 60vh;">
+      <div class="card" style="max-width: 400px; width: 100%;">
+        <h2 style="text-align: center; margin-bottom: 1.5rem;">Register</h2>
+        <form id="registerForm">
+          <div style="margin-bottom: 1rem;">
+            <label for="username" class="sr-only">Username</label>
+            <input type="text" id="username" placeholder="Username" required style="width: 100%; padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--chip); background-color: var(--panel); color: var(--text);">
+          </div>
+          <div style="margin-bottom: 1rem;">
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" id="email" placeholder="Email" required style="width: 100%; padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--chip); background-color: var(--panel); color: var(--text);">
+          </div>
+          <div style="margin-bottom: 1rem;">
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" id="password" placeholder="Password" required style="width: 100%; padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--chip); background-color: var(--panel); color: var(--text);">
+          </div>
+          <div style="margin-bottom: 1rem;">
+            <label for="confirm" class="sr-only">Confirm Password</label>
+            <input type="password" id="confirm" placeholder="Confirm Password" required style="width: 100%; padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--chip); background-color: var(--panel); color: var(--text);">
+          </div>
+          <button type="submit" class="pill" style="width: 100%;">Register</button>
+        </form>
+        <p style="text-align: center; margin-top: 1rem; color: var(--muted);">Already have an account? <a href="login.html" style="color: var(--brand);">Login</a></p>
+      </div>
+    </main>
+    <footer class="notice">
+      <i class="fas fa-info-circle"></i> Educational use only. Not medical advice. Always consult a qualified practitioner.
+    </footer>
+  </div>
+  <script>
+    // Theme management
+    const themeToggle = document.getElementById('themeToggle');
+    let darkMode = localStorage.getItem('darkMode') === 'true';
+    applyTheme();
+    themeToggle.addEventListener('click', () => {
+      darkMode = !darkMode;
+      localStorage.setItem('darkMode', darkMode);
+      applyTheme();
+    });
+    function applyTheme() {
+      if (darkMode) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+      }
+    }
+
+    // Register logic
+    const form = document.getElementById('registerForm');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const username = document.getElementById('username').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value;
+      const confirm = document.getElementById('confirm').value;
+      if (password !== confirm) {
+        alert('Passwords do not match.');
+        return;
+      }
+      let users = JSON.parse(localStorage.getItem('ayurUsers') || '[]');
+      if (users.find(u => u.username === username)) {
+        alert('Username already exists.');
+        return;
+      }
+      if (users.find(u => u.email === email)) {
+        alert('Email already registered.');
+        return;
+      }
+      users.push({ username, email, password });
+      localStorage.setItem('ayurUsers', JSON.stringify(users));
+      alert('Registration successful! Please login.');
+      window.location.href = 'login.html';
+    });
+  </script>
+</body>
+</html>

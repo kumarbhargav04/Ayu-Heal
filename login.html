@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Ayurvedic Plant Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">🌿</div>
+        <div>
+          <h1>Ayurvedic Plant Finder</h1>
+          <div class="tagline">Search plants ↔ diseases • learn uses, prep & safety</div>
+        </div>
+      </div>
+      <button id="themeToggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
+    </header>
+    <main style="display: flex; justify-content: center; align-items: center; min-height: 60vh;">
+      <div class="card" style="max-width: 400px; width: 100%;">
+        <h2 style="text-align: center; margin-bottom: 1.5rem;">Login</h2>
+        <form id="loginForm">
+          <div style="margin-bottom: 1rem;">
+            <label for="username" class="sr-only">Username or Email</label>
+            <input type="text" id="username" placeholder="Username or Email" required style="width: 100%; padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--chip); background-color: var(--panel); color: var(--text);">
+          </div>
+          <div style="margin-bottom: 1rem;">
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" id="password" placeholder="Password" required style="width: 100%; padding: 0.75rem; border-radius: var(--radius); border: 1px solid var(--chip); background-color: var(--panel); color: var(--text);">
+          </div>
+          <button type="submit" class="pill" style="width: 100%;">Login</button>
+        </form>
+        <p style="text-align: center; margin-top: 1rem; color: var(--muted);">Don't have an account? <a href="register.html" style="color: var(--brand);">Register</a></p>
+      </div>
+    </main>
+    <footer class="notice">
+      <i class="fas fa-info-circle"></i> Educational use only. Not medical advice. Always consult a qualified practitioner.
+    </footer>
+  </div>
+  <script>
+    // Theme management
+    const themeToggle = document.getElementById('themeToggle');
+    let darkMode = localStorage.getItem('darkMode') === 'true';
+    applyTheme();
+    themeToggle.addEventListener('click', () => {
+      darkMode = !darkMode;
+      localStorage.setItem('darkMode', darkMode);
+      applyTheme();
+    });
+    function applyTheme() {
+      if (darkMode) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+      }
+    }
+
+    // Login logic
+    const form = document.getElementById('loginForm');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value;
+      const users = JSON.parse(localStorage.getItem('ayurUsers') || '[]');
+      const user = users.find(u => (u.username === username || u.email === username) && u.password === password);
+      if (user) {
+        localStorage.setItem('loggedInUser', user.username);
+        window.location.href = 'index.html';
+      } else {
+        alert('Invalid username/email or password. Please try again.');
+      }
+    });
+  </script>
+</body>
+</html>
