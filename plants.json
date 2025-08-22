@@ -3,710 +3,550 @@
     {
       "name": "Ashwagandha",
       "latinName": "Withania somnifera",
-      "image": "ashwagandha.jpg",
+      "image": "images/ashwagandha.jpg",
       "partsUsed": "Root, Leaves",
       "systems": ["Nervous", "Immune", "Reproductive"],
       "diseases": ["Stress", "Anxiety", "Insomnia", "Low immunity"],
-      "preparation": {
-        "Decoction": "Boil 1–2 teaspoons of dried ashwagandha root powder in 2 cups of water until reduced to 1 cup. Optionally, add 1 cup of milk and a pinch of cardamom for taste. Strain and consume warm, typically once daily in the evening to promote relaxation and sleep.",
-        "Powder (Churna)": "Grind dried ashwagandha roots into a fine powder using a mortar and pestle or spice grinder. Sieve to ensure smoothness. Mix 1–2 teaspoons of the powder with warm milk, water, or honey. Consume once or twice daily, preferably after meals to aid digestion.",
-        "Capsules": "Purchase standardized ashwagandha extract capsules from a reputable source. Alternatively, fill empty gelatin or vegetarian capsules with ashwagandha churna using a capsule-filling machine for consistent dosing. Follow label instructions or take 1–2 capsules (300–600 mg each) with water after meals."
-      },
+      "preparation": "Decoction, Powder (churna), Capsules",
       "dosage": "Powder 3–6 g/day; Standardized extract per label",
       "safety": "May potentiate sedatives and thyroid meds; avoid in pregnancy unless supervised"
     },
     {
       "name": "Tulsi",
       "latinName": "Ocimum tenuiflorum",
-      "image": "tulsi.jpg",
+      "image": "images/tulsi.jpg",
       "partsUsed": "Leaves, Seeds",
       "systems": ["Respiratory", "Immune", "Digestive"],
       "diseases": ["Cough", "Cold", "Asthma", "Diabetes"],
-      "preparation": {
-        "Tea": "Steep 4–6 fresh tulsi leaves or 1 teaspoon of dried leaves in 1 cup of boiling water for 5–10 minutes. Strain, add honey or jaggery to taste, and drink warm 1–2 times daily to support respiratory and immune health.",
-        "Fresh Juice": "Crush 10–12 fresh tulsi leaves with a mortar and pestle or blend with a small amount of water. Strain through a muslin cloth to extract the juice. Mix 5–10 ml of juice with water or honey and consume once daily, preferably in the morning.",
-        "Powder": "Dry tulsi leaves in shade to preserve potency, then grind into a fine powder. Sieve for smoothness. Mix 1–2 teaspoons of the powder with warm water or honey and take once daily to support digestion and immunity."
-      },
-      "dosage": "Fresh leaves: transport://4–6/day; Juice: 5–10 ml",
+      "preparation": "Tea, Fresh juice, Powder",
+      "dosage": "Fresh leaves: 4–6/day; Juice: 5–10 ml",
       "safety": "May lower blood sugar; caution with anticoagulants"
     },
     {
       "name": "Turmeric",
       "latinName": "Curcuma longa",
-      "image": "turmeric.jpg",
+      "image": "images/turmeric.jpg",
       "partsUsed": "Rhizome",
       "systems": ["Digestive", "Anti-inflammatory", "Skin"],
       "diseases": ["Arthritis", "Indigestion", "Wound healing"],
-      "preparation": {
-        "Paste": "Grind fresh turmeric rhizomes with a small amount of water to form a smooth paste, or use 1–2 teaspoons of turmeric powder mixed with water or rose water. Apply topically to wounds or inflamed skin, or mix 1/4 teaspoon with honey for internal use to reduce inflammation.",
-        "Powder": "Dry turmeric rhizomes in the sun or a dehydrator, then grind into a fine powder. Sieve for consistency. Mix 1/2–1 teaspoon of turmeric powder with warm milk or water, adding a pinch of black pepper to enhance curcumin absorption. Consume 1–2 times daily.",
-        "Milk Decoction (Golden Milk)": "Boil 1/2 teaspoon of turmeric powder or 1-inch fresh turmeric root in 1 cup of milk (dairy or plant-based) with a pinch of black pepper and optional spices like cinnamon or ginger. Simmer for 5–10 minutes, strain if using fresh root, and drink warm once daily, ideally at night."
-      },
+      "preparation": "Paste, Powder, Milk decoction (golden milk)",
       "dosage": "Powder: 1–3 g/day; With black pepper for absorption",
       "safety": "High doses may cause gastric upset"
     },
     {
       "name": "Brahmi",
       "latinName": "Bacopa monnieri",
-      "image": "brahmi.jpg",
+      "image": "images/brahmi.jpg",
       "partsUsed": "Whole plant",
       "systems": ["Nervous", "Cognitive"],
       "diseases": ["Memory loss", "Anxiety", "ADHD"],
-      "preparation": {
-        "Juice": "Blend 10–15 fresh brahmi leaves and stems with 1/4 cup of water. Strain through a muslin cloth to extract the juice. Mix 5–10 ml of juice with water or honey and consume once daily in the morning to enhance cognitive function.",
-        "Powder": "Dry the whole brahmi plant in shade, then grind into a fine powder. Sieve to remove coarse particles. Mix 1/2–1 teaspoon of powder with warm water, milk, or ghee and take once daily, preferably with food to avoid nausea.",
-        "Capsules": "Use standardized brahmi extract capsules from a trusted supplier, or fill capsules with brahmi powder using a capsule-filling machine. Take 1–2 capsules (300–600 mg each) with water after meals, following label instructions."
-      },
+      "preparation": "Juice, Powder, Capsules",
       "dosage": "300–600 mg/day standardized extract",
       "safety": "May cause nausea in empty stomach"
     },
     {
       "name": "Guduchi",
       "latinName": "Tinospora cordifolia",
-      "image": "guduchi.jpg",
+      "image": "images/guduchi.jpg",
       "partsUsed": "Stem",
       "systems": ["Immune", "Detoxification"],
       "diseases": ["Fever", "Diabetes", "Liver disorders"],
-      "preparation": {
-        "Decoction": "Chop 10–15 g of fresh guduchi stem or 2 teaspoons of dried stem powder. Boil in 2 cups of water until reduced to 1/2 cup. Strain and drink warm once daily, ideally in the morning, to boost immunity and support detoxification.",
-        "Powder": "Dry guduchi stems in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily after meals to aid digestion and immunity.",
-        "Tablet": "Purchase guduchi tablets from a reputable Ayurvedic supplier, or compress guduchi powder into tablets using a tablet press for precise dosing. Take 1–2 tablets (500 mg each) with water after meals, following label instructions."
-      },
+      "preparation": "Decoction, Powder, Tablet",
       "dosage": "Powder: 3–6 g/day",
       "safety": "Safe for long-term use"
     },
     {
       "name": "Shatavari",
       "latinName": "Asparagus racemosus",
-      "image": "shatavari.jpg",
+      "image": "images/shatavari.jpg",
       "partsUsed": "Root",
       "systems": ["Reproductive", "Digestive"],
       "diseases": ["Hormonal imbalance", "Low lactation", "Gastritis"],
-      "preparation": {
-        "Powder": "Dry shatavari roots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm milk or water, optionally adding honey or ghee. Consume 1–2 times daily to support reproductive and digestive health.",
-        "Milk Decoction": "Boil 1–2 teaspoons of shatavari root powder in 1 cup of milk and 1 cup of water until reduced to 1 cup. Add a pinch of cardamom or saffron for flavor. Strain and drink warm once daily, ideally in the evening.",
-        "Ghee Preparation": "Heat 1 teaspoon of shatavari powder with 1 tablespoon of ghee in a pan on low heat until aromatic. Cool slightly and consume with warm milk or water once daily to nourish reproductive tissues."
-      },
+      "preparation": "Powder, Milk decoction, Ghee preparation",
       "dosage": "Powder: 3–6 g/day",
       "safety": "May increase estrogen levels"
     },
     {
       "name": "Neem",
       "latinName": "Azadirachta indica",
-      "image": "neem.jpg",
+      "image": "images/neem.jpg",
       "partsUsed": "Leaves, Bark, Oil",
       "systems": ["Skin", "Blood Purification"],
       "diseases": ["Acne", "Eczema", "Diabetes"],
-      "preparation": {
-        "Leaf Juice": "Crush 10–15 fresh neem leaves with a small amount of water in a mortar and pestle or blender. Strain through a muslin cloth to extract the juice. Mix 2–4 ml of juice with water or honey and consume once daily in the morning for blood purification.",
-        "Powder": "Dry neem leaves or bark in shade, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with water or honey and take once daily to support skin health and detoxification.",
-        "Oil Application": "Use cold-pressed neem oil from a reputable source. Apply directly to affected skin areas (e.g., acne or eczema) using a cotton ball, or mix with a carrier oil like coconut oil for sensitive skin. Apply 1–2 times daily."
-      },
+      "preparation": "Leaf juice, Powder, Oil application",
       "dosage": "Leaf juice: 2–4 ml/day",
       "safety": "Bitter taste; avoid in pregnancy"
     },
     {
       "name": "Amla",
       "latinName": "Phyllanthus emblica",
-      "image": "amla.jpg",
+      "image": "images/amla.jpg",
       "partsUsed": "Fruit",
       "systems": ["Anti-aging", "Digestive", "Hair"],
       "diseases": ["Premature graying", "Constipation", "Weak immunity"],
-      "preparation": {
-        "Fresh Fruit": "Wash 1–2 fresh amla fruits, remove the seed, and eat raw or blend into a smoothie with water or yogurt. Consume once daily in the morning for antioxidant benefits and digestion support.",
-        "Powder": "Dry seedless amla fruits in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water, honey, or milk and take 1–2 times daily to boost immunity and digestion.",
-        "Juice": "Blend 2–3 fresh amla fruits with 1/4 cup of water, strain through a muslin cloth, and collect the juice. Mix 10–20 ml of juice with water or honey and drink once daily, preferably in the morning."
-      },
+      "preparation": "Fresh fruit, Powder, Juice",
       "dosage": "Powder: 3–6 g/day",
       "safety": "Safe even in high doses"
     },
     {
       "name": "Arjuna",
       "latinName": "Terminalia arjuna",
-      "image": "arjuna.jpg",
+      "image": "images/arjuna.jpg",
       "partsUsed": "Bark",
       "systems": ["Cardiovascular"],
       "diseases": ["High cholesterol", "Heart weakness"],
-      "preparation": {
-        "Bark Decoction": "Boil 1–2 teaspoons of arjuna bark powder or 10–15 g of dried bark in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily, ideally in the morning, to support heart health.",
-        "Powder": "Dry arjuna bark in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or milk and consume once daily after meals to promote cardiovascular function."
-      },
+      "preparation": "Bark decoction, Powder",
       "dosage": "Powder: 3–6 g/day",
       "safety": "May lower blood pressure"
     },
     {
       "name": "Guggul",
       "latinName": "Commiphora mukul",
-      "image": "guggul.jpg",
+      "image": "images/guggul.jpg",
       "partsUsed": "Resin",
       "systems": ["Metabolic", "Anti-inflammatory"],
       "diseases": ["Obesity", "Arthritis", "High cholesterol"],
-      "preparation": {
-        "Purified Resin": "Purify raw guggul resin by boiling in a decoction of triphala (equal parts amla, haritaki, bibhitaki) for 10–15 minutes, then strain and dry. Grind into a powder and take 250–500 mg with warm water 2–3 times daily to support metabolism.",
-        "Tablet": "Purchase purified guggul tablets from a trusted supplier, or compress purified guggul powder into tablets using a tablet press. Take 1–2 tablets (500 mg each) with water after meals, following label instructions."
-      },
+      "preparation": "Purified resin, Tablet",
       "dosage": "500 mg 2–3 times/day",
       "safety": "May cause mild diarrhea initially"
     },
     {
       "name": "Punarnava",
       "latinName": "Boerhavia diffusa",
-      "image": "punarnava.jpg",
+      "image": "images/punarnava.jpg",
       "partsUsed": "Root, Whole plant",
       "systems": ["Urinary", "Kidney"],
       "diseases": ["Edema", "Kidney stones", "UTI"],
-      "preparation": {
-        "Decoction": "Boil 1–2 teaspoons of punarnava root powder or 10–15 g of dried root in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily, preferably in the morning, to support kidney function and reduce edema.",
-        "Powder": "Dry punarnava roots or whole plant in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily after meals to promote urinary health."
-      },
+      "preparation": "Decoction, Powder",
       "dosage": "Powder: 3–5 g/day",
       "safety": "Diuretic effect; maintain hydration"
     },
     {
       "name": "Shankhpushpi",
       "latinName": "Convolvulus pluricaulis",
-      "image": "shankhpushpi.jpg",
+      "image": "images/shankhpushpi.jpg",
       "partsUsed": "Whole plant",
       "systems": ["Nervous", "Cognitive"],
       "diseases": ["Memory enhancement", "Insomnia"],
-      "preparation": {
-        "Powder": "Dry the whole shankhpushpi plant in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm milk or water and consume once daily, preferably at night, to promote sleep and cognitive clarity.",
-        "Juice": "Blend 10–15 g of fresh shankhpushpi plant with 1/4 cup of water, strain through a muslin cloth, and collect the juice. Mix 5–10 ml of juice with water or honey and drink once daily in the morning for mental clarity.",
-        "Ghrita (Medicated Ghee)": "Heat 1 teaspoon of shankhpushpi powder with 1 tablespoon of ghee on low heat until aromatic. Cool slightly and consume with warm milk once daily at bedtime to support nervous system health."
-      },
+      "preparation": "Powder, Juice, Ghrita",
       "dosage": "Powder: 3–6 g/day",
       "safety": "Mild sedative effect"
     },
     {
       "name": "Yashtimadhu",
       "latinName": "Glycyrrhiza glabra",
-      "image": "yashtimadhu.jpg",
+      "image": "images/yashtimadhu.jpg",
       "partsUsed": "Root",
       "systems": ["Respiratory", "Digestive"],
       "diseases": ["Sore throat", "Ulcers", "Cough"],
-      "preparation": {
-        "Powder": "Dry yashtimadhu roots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume 1–2 times daily to soothe sore throat or digestive issues.",
-        "Decoction": "Boil 1–2 teaspoons of yashtimadhu root powder or 10 g of dried root in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily, ideally in the morning, to support respiratory health.",
-        "Chew Sticks": "Cut dried yashtimadhu roots into small sticks. Chew 1–2 sticks slowly to release the sweet flavor and soothe throat irritation, up to 2 times daily."
-      },
+      "preparation": "Powder, Decoction, Chew sticks",
       "dosage": "Powder: 3–5 g/day",
       "safety": "Avoid in hypertension; may cause edema"
     },
     {
       "name": "Vacha",
       "latinName": "Acorus calamus",
-      "image": "vacha.jpg",
+      "image": "images/vacha.jpg",
       "partsUsed": "Rhizome",
       "systems": ["Nervous", "Speech"],
       "diseases": ["Speech disorders", "Memory issues"],
-      "preparation": {
-        "Powder": "Use only processed (detoxified) vacha rhizome to avoid toxicity. Dry processed rhizomes, grind into a fine powder, and sieve. Mix 125–250 mg of powder with honey or ghee and consume once daily to support cognitive function and speech.",
-        "Medicated Ghee": "Heat 1/2 teaspoon of processed vacha powder with 1 tablespoon of ghee on low heat until aromatic. Cool slightly and take with warm milk once daily in the morning to enhance mental clarity."
-      },
+      "preparation": "Powder, Medicated ghee",
       "dosage": "Powder: 125–500 mg/day",
       "safety": "Use processed form only; toxic in high doses"
     },
     {
       "name": "Haritaki",
       "latinName": "Terminalia chebula",
-      "image": "haritaki.jpg",
+      "image": "images/haritaki.jpg",
       "partsUsed": "Fruit",
       "systems": ["Digestive", "Detoxification"],
       "diseases": ["Constipation", "Digestive weakness"],
-      "preparation": {
-        "Powder": "Dry haritaki fruits in shade, remove seeds, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily, preferably at night, to promote digestion and detoxification.",
-        "Decoction": "Boil 1–2 teaspoons of haritaki powder or 10 g of dried fruit in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the evening to support bowel regularity."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 3–6 g/day",
       "safety": "May cause loose stools initially"
     },
     {
       "name": "Bibhitaki",
       "latinName": "Terminalia bellirica",
-      "image": "bibhitaki.jpg",
+      "image": "images/bibhitaki.jpg",
       "partsUsed": "Fruit",
       "systems": ["Respiratory", "Digestive"],
       "diseases": ["Cough", "Hoarseness", "Constipation"],
-      "preparation": {
-        "Powder": "Dry bibhitaki fruits in shade, remove seeds, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily to support respiratory and digestive health.",
-        "Decoction": "Boil 1–2 teaspoons of bibhitaki powder or 10 g of dried fruit in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to alleviate cough and hoarseness."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 3–5 g/day",
       "safety": "Dryness may increase in excess"
     },
     {
       "name": "Amalaki",
       "latinName": "Phyllanthus emblica",
-      "image": "amalaki.jpg",
+      "image": "images/amalaki.jpg",
       "partsUsed": "Fruit",
       "systems": ["Anti-aging", "Digestive"],
       "diseases": ["Premature aging", "Weak digestion"],
-      "preparation": {
-        "Fresh Fruit": "Wash 1–2 fresh amalaki fruits, remove the seed, and eat raw or blend into a smoothie with water or yogurt. Consume once daily in the morning for antioxidant and digestive benefits.",
-        "Powder": "Dry seedless amalaki fruits in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water, honey, or milk and take 1–2 times daily to support digestion and immunity.",
-        "Murabba": "Soak deseeded amalaki fruits in sugar syrup (1:1 sugar-to-water ratio) for 2–3 days until soft. Drain and store in a jar. Eat 1–2 pieces daily as a digestive tonic or to promote vitality."
-      },
+      "preparation": "Fresh fruit, Powder, Murabba",
       "dosage": "Powder: 3–6 g/day",
       "safety": "Very safe even in high doses"
     },
     {
       "name": "Gokshura",
       "latinName": "Tribulus terrestris",
-      "image": "gokshura.jpg",
+      "image": "images/gokshura.jpg",
       "partsUsed": "Fruit, Root",
       "systems": ["Urinary", "Reproductive"],
       "diseases": ["UTI", "Low libido", "Kidney stones"],
-      "preparation": {
-        "Powder": "Dry gokshura fruits or roots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or milk and consume once daily to support urinary and reproductive health.",
-        "Decoction": "Boil 1–2 teaspoons of gokshura powder or 10–15 g of dried fruit/root in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to promote kidney function."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 3–6 g/day",
       "safety": "Safe for long-term use"
     },
     {
       "name": "Manjistha",
       "latinName": "Rubia cordifolia",
-      "image": "manjistha.jpg",
+      "image": "images/manjistha.jpg",
       "partsUsed": "Root",
       "systems": ["Blood Purification", "Skin"],
       "diseases": ["Acne", "Skin disorders", "Tumors"],
-      "preparation": {
-        "Powder": "Dry manjistha roots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily to support skin health and blood purification.",
-        "Decoction": "Boil 1–2 teaspoons of manjistha root powder or 10 g of dried root in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to detoxify the blood."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 3–5 g/day",
       "safety": "May color urine red (normal)"
     },
     {
       "name": "Katuki",
       "latinName": "Picrorhiza kurroa",
-      "image": "katuki.jpg",
+      "image": "images/katuki.jpg",
       "partsUsed": "Root",
       "systems": ["Liver", "Digestive"],
       "diseases": ["Jaundice", "Liver disorders"],
-      "preparation": {
-        "Powder": "Dry katuki roots in shade, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with honey or warm water to mask bitterness and consume once daily to support liver health.",
-        "Decoction": "Boil 1 teaspoon of katuki root powder or 5–10 g of dried root in 2 cups of water until reduced to 1 cup. Strain, mix with honey to taste, and drink warm once daily in the morning for liver detoxification."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 1–3 g/day",
       "safety": "Very bitter; use with honey"
     },
     {
       "name": "Pippali",
       "latinName": "Piper longum",
-      "image": "pippali.jpg",
+      "image": "images/pippali.jpg",
       "partsUsed": "Fruit",
       "systems": ["Respiratory", "Digestive"],
       "diseases": ["Asthma", "Digestive weakness"],
-      "preparation": {
-        "Powder": "Dry pippali fruits in shade, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with honey or warm water and consume once daily after meals to support digestion and respiratory health.",
-        "Decoction": "Boil 1/2–1 teaspoon of pippali powder or 5 g of dried fruit in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to alleviate asthma or digestive issues."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 1–3 g/day",
       "safety": "Heating effect; balance with cooling foods"
     },
     {
       "name": "Bala",
       "latinName": "Sida cordifolia",
-      "image": "bala.jpg",
+      "image": "images/bala.jpg",
       "partsUsed": "Root",
       "systems": ["Nervous", "Muscular"],
       "diseases": ["Muscle weakness", "Nervine tonic"],
-      "preparation": {
-        "Powder": "Dry bala roots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm milk or water and consume once daily to strengthen muscles and nerves.",
-        "Decoction": "Boil 1–2 teaspoons of bala root powder or 10 g of dried root in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to support muscle health.",
-        "Oil": "Heat 1 part bala root powder with 4 parts sesame oil and 16 parts water on low heat until the water evaporates, leaving medicated oil. Strain and apply to muscles or joints for strength and pain relief."
-      },
+      "preparation": "Powder, Decoction, Oil",
       "dosage": "Powder: 3–6 g/day",
       "safety": "Safe tonic herb"
     },
     {
       "name": "Daruharidra",
       "latinName": "Berberis aristata",
-      "image": "daruharidra.jpg",
+      "image": "images/daruharidra.jpg",
       "partsUsed": "Root, Stem",
       "systems": ["Skin", "Eyes"],
       "diseases": ["Conjunctivitis", "Skin infections"],
-      "preparation": {
-        "Decoction": "Boil 1–2 teaspoons of daruharidra root or stem powder or 10 g of dried material in 2 cups of water until reduced to 1 cup. Strain and use as a wash for skin infections or dilute for eye drops under professional guidance.",
-        "Eye Drops": "Prepare a weak decoction (1/2 teaspoon powder in 1 cup water), strain thoroughly through a fine cloth, and cool. Use as eye drops (1–2 drops per eye) under medical supervision to treat conjunctivitis."
-      },
+      "preparation": "Decoction, Eye drops",
       "dosage": "Powder: 1–3 g/day",
       "safety": "Bitter; avoid in pregnancy"
     },
     {
       "name": "Jatamansi",
       "latinName": "Nardostachys jatamansi",
-      "image": "jatamansi.jpg",
+      "image": "images/jatamansi.jpg",
       "partsUsed": "Root",
       "systems": ["Nervous", "Sleep"],
       "diseases": ["Insomnia", "Anxiety"],
-      "preparation": {
-        "Powder": "Dry jatamansi roots in shade, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with warm milk or water and consume at bedtime to promote sleep and reduce anxiety.",
-        "Oil": "Heat 1 part jatamansi root powder with 4 parts sesame oil and 16 parts water on low heat until the water evaporates. Strain and use the oil for scalp massage to calm the mind or apply to temples for relaxation."
-      },
+      "preparation": "Powder, Oil",
       "dosage": "Powder: 1–3 g/day",
       "safety": "Mild sedative effect"
     },
     {
       "name": "Kutaja",
       "latinName": "Holarrhena antidysenterica",
-      "image": "kutaja.jpg",
+      "image": "images/kutaja.jpg",
       "partsUsed": "Bark",
       "systems": ["Digestive"],
       "diseases": ["Diarrhea", "Dysentery"],
-      "preparation": {
-        "Bark Decoction": "Boil 1–2 teaspoons of kutaja bark powder or 10 g of dried bark in 2 cups of water until reduced to 1 cup. Strain and drink warm 1–2 times daily to manage diarrhea or dysentery."
-      },
+      "preparation": "Bark decoction",
       "dosage": "Powder: 3–5 g/day",
       "safety": "Specific for diarrhea"
     },
     {
       "name": "Chandana",
       "latinName": "Santalum album",
-      "image": "chandana.jpg",
+      "image": "images/chandana.jpg",
       "partsUsed": "Heartwood",
       "systems": ["Skin", "Cooling"],
       "diseases": ["Burning sensation", "Pitta disorders"],
-      "preparation": {
-        "Paste": "Grind chandana heartwood with rose water or plain water to form a smooth paste. Apply to skin to reduce burning sensations or inflammation, or mix 1/4 teaspoon with honey for internal cooling effects.",
-        "Powder": "Grind dried chandana heartwood into a fine powder and sieve. Mix 1/2–1 teaspoon of powder with warm water or milk and consume once daily to balance pitta and cool the body."
-      },
+      "preparation": "Paste, Powder",
       "dosage": "Powder: 1–3 g/day",
       "safety": "Very cooling; balance in cold climates"
     },
     {
       "name": "Mustaka",
       "latinName": "Cyperus rotundus",
-      "image": "mustaka.jpg",
+      "image": "images/mustaka.jpg",
       "partsUsed": "Tuber",
       "systems": ["Digestive"],
       "diseases": ["Diarrhea", "Fever"],
-      "preparation": {
-        "Powder": "Dry mustaka tubers in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily to manage diarrhea or fever.",
-        "Decoction": "Bo 1–2 teaspoons of mustaka tuber powder or 10 g of dried tubers in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to support digestion."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 3–5 g/day",
       "safety": "Drying effect"
     },
     {
       "name": "Sariva",
       "latinName": "Hemidesmus indicus",
-      "image": "sariva.jpg",
+      "image": "images/sariva.jpg",
       "partsUsed": "Root",
       "systems": ["Blood Purification", "Skin"],
       "diseases": ["Skin diseases", "Syphilis"],
-      "preparation": {
-        "Powder": "Dry sariva roots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or milk and consume once daily to purify blood and support skin health.",
-        "Decoction": "Boil 1–2 teaspoons of sariva root powder or 10 g of dried root in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning for detoxification."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 3–6 g/day",
       "safety": "Cooling effect"
     },
     {
       "name": "Bhumyamalaki",
       "latinName": "Phyllanthus niruri",
-      "image": "bhumyamalaki.jpg",
+      "image": "images/bhumyamalaki.jpg",
       "partsUsed": "Whole plant",
       "systems": ["Liver"],
       "diseases": ["Hepatitis", "Jaundice"],
-      "preparation": {
-        "Juice": "Blend 10–15 g of fresh bhumyamalaki plant with 1/4 cup of water, strain through a muslin cloth, and collect the juice. Mix 5–10 ml of juice with water or honey and drink once daily in the morning to support liver health.",
-        "Powder": "Dry the whole plant in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily to promote liver detoxification."
-      },
+      "preparation": "Juice, Powder",
       "dosage": "Juice: 5–10 ml/day",
       "safety": "Specific for liver disorders"
     },
     {
       "name": "Danti",
       "latinName": "Baliospermum montanum",
-      "image": "danti.jpg",
+      "image": "images/danti.jpg",
       "partsUsed": "Root",
       "systems": ["Digestive"],
       "diseases": ["Constipation", "Tumors"],
-      "preparation": {
-        "Processed Root Powder": "Use only processed (detoxified) danti root to avoid toxicity. Dry processed roots, grind into a fine powder, and sieve. Mix 125–250 mg of powder with warm water or honey and consume once daily under supervision to relieve constipation."
-      },
+      "preparation": "Processed root powder",
       "dosage": "125–500 mg/day",
       "safety": "Strong purgative; use under supervision"
     },
     {
       "name": "Eranda",
       "latinName": "Ricinus communis",
-      "image": "eranda.jpg",
+      "image": "images/eranda.jpg",
       "partsUsed": "Root, Oil",
       "systems": ["Muscular", "Nervous"],
       "diseases": ["Arthritis", "Sciatica"],
-      "preparation": {
-        "Oil Application": "Use processed, cold-pressed castor oil from a reputable source. Apply warmed oil to affected joints or muscles and massage gently. Cover with a warm cloth and leave for 30–60 minutes, 1–2 times daily, for pain relief.",
-        "Pills": "Purchase castor oil capsules from a trusted supplier for oral use, or encapsulate processed castor oil in gelatin capsules. Take 5–15 drops (or as per label) with warm water once daily under supervision to relieve arthritis."
-      },
+      "preparation": "Oil application, Pills",
       "dosage": "Oil: 5–15 drops orally",
       "safety": "Seeds are toxic; use processed oil only"
     },
     {
       "name": "Gudmar",
       "latinName": "Gymnema sylvestre",
-      "image": "gudmar.jpg",
+      "image": "images/gudmar.jpg",
       "partsUsed": "Leaves",
       "systems": ["Metabolic"],
       "diseases": ["Diabetes", "Obesity"],
-      "preparation": {
-        "Powder": "Dry gudmar leaves in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily before meals to manage blood sugar.",
-        "Capsules": "Purchase standardized gudmar extract capsules, or fill capsules with gudmar powder using a capsule-filling machine. Take 1–2 capsules (500 mg each) with water before meals, following label instructions."
-      },
+      "preparation": "Powder, Capsules",
       "dosage": "Powder: 2–4 g/day",
       "safety": "May reduce sugar cravings"
     },
     {
       "name": "Kalmegh",
       "latinName": "Andrographis paniculata",
-      "image": "kalmegh.jpg",
+      "image": "images/kalmegh.jpg",
       "partsUsed": "Whole plant",
       "systems": ["Immune", "Liver"],
       "diseases": ["Fever", "Liver disorders"],
-      "preparation": {
-        "Juice": "Blend 10–15 g of fresh kalmegh plant with 1/4 cup of water, strain through a muslin cloth, and collect the juice. Mix 5–10 ml of juice with honey to mask bitterness and drink once daily in the morning to support immunity.",
-        "Powder": "Dry the whole kalmegh plant in shade, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with honey or water and consume once daily, or use capsules to avoid bitter taste."
-      },
+      "preparation": "Juice, Powder",
       "dosage": "Powder: 1–3 g/day",
       "safety": "Very bitter; best in capsule form"
     },
     {
       "name": "Mulethi",
       "latinName": "Glycyrrhiza glabra",
-      "image": "mulethi.jpg",
+      "image": "images/mulethi.jpg",
       "partsUsed": "Root",
       "systems": ["Respiratory"],
       "diseases": ["Cough", "Sore throat"],
-      "preparation": {
-        "Powder": "Dry mulethi roots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume 1–2 times daily to soothe cough and sore throat.",
-        "Decoction": "Boil 1–2 teaspoons of mulethi root powder or 10 g of dried root in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to support respiratory health."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 3–5 g/day",
       "safety": "Avoid in hypertension"
     },
     {
       "name": "Nagarmotha",
       "latinName": "Cyperus scariosus",
-      "image": "nagarmotha.jpg",
+      "image": "images/nagarmotha.jpg",
       "partsUsed": "Tuber",
       "systems": ["Digestive"],
       "diseases": ["Diarrhea", "Dysentery"],
-      "preparation": {
-        "Powder": "Dry nagarmotha tubers in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily to manage diarrhea or dysentery.",
-        "Decoction": "Boil 1–2 teaspoons of nagarmotha tuber powder or 10 g of dried tubers in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to support digestion."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 3–5 g/day",
       "safety": "Astringent effect"
     },
     {
       "name": "Pashanbheda",
-      "latinName": "Bergenia ligulata eligulata",
-      "image": "pashanbheda.jpg",
+      "latinName": "Bergenia ligulata",
+      "image": "images/pashanbheda.jpg",
       "partsUsed": "Root",
       "systems": ["Urinary"],
       "diseases": ["Kidney stones", "UTI"],
-      "preparation": {
-        "Powder": "Dry pashanbheda roots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or milk and consume once daily to support urinary health and dissolve kidney stones.",
-        "Decoction": "Boil 1–2 teaspoons of pashanbheda root powder or 10 g of dried root in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to promote kidney function."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 3–6 g/day",
       "safety": "Diuretic effect"
     },
     {
       "name": "Pippalimula",
       "latinName": "Piper longum (root)",
-      "image": "pippalimula.jpg",
+      "image": "images/pippalimula.jpg",
       "partsUsed": "Root",
       "systems": ["Respiratory"],
       "diseases": ["Chronic cough", "Asthma"],
-      "preparation": {
-        "Powder": "Dry pippalimula roots in shade, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with honey or warm water and consume once daily after meals to support respiratory health.",
-        "Decoction": "Boil 1/2–1 teaspoon of pippalimula root powder or 5 g of dried root in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to alleviate chronic cough."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "Powder: 1–3 g/day",
       "safety": "Heating effect"
     },
     {
       "name": "Rasna",
       "latinName": "Pluchea lanceolata",
-      "image": "rasna.jpg",
+      "image": "images/rasna.jpg",
       "partsUsed": "Leaves",
       "systems": ["Muscular"],
       "diseases": ["Arthritis", "Muscle pain"],
-      "preparation": {
-        "Powder": "Dry rasna leaves in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or milk and consume once daily to relieve muscle pain and arthritis.",
-        "Oil": "Heat 1 part rasna leaf powder with 4 parts sesame oil and 16 parts water on low heat until the water evaporates. Strain and apply the oil to affected joints or muscles for pain relief, 1–2 times daily."
-      },
+      "preparation": "Powder, Oil",
       "dosage": "Powder: 3–5 g/day",
       "safety": "Anti-inflammatory"
     },
     {
       "name": "Sarpagandha",
       "latinName": "Rauvolfia serpentina",
-      "image": "sarpagandha.jpg",
+      "image": "images/sarpagandha.jpg",
       "partsUsed": "Root",
       "systems": ["Cardiovascular"],
       "diseases": ["High BP", "Insomnia"],
-      "preparation": {
-        "Powder": "Dry sarpagandha roots in shade, grind into a fine powder, and sieve. Mix 125–250 mg of powder with warm water or milk and consume once daily under medical supervision to manage blood pressure or insomnia.",
-        "Tablet": "Purchase standardized sarpagandha tablets from a trusted supplier. Take 1–2 tablets (125–250 mg each) with water at bedtime, following medical advice."
-      },
+      "preparation": "Powder, Tablet",
       "dosage": "125–500 mg/day",
       "safety": "Only under supervision"
     },
     {
       "name": "Shallaki",
       "latinName": "Boswellia serrata",
-      "image": "shallaki.jpg",
+      "image": "images/shallaki.jpg",
       "partsUsed": "Resin",
       "systems": ["Anti-inflammatory"],
       "diseases": ["Arthritis", "Joint pain"],
-      "preparation": {
-        "Powder": "Grind purified shallaki resin into a fine powder and sieve. Mix 300–500 mg of powder with warm water or milk and consume 2–3 times daily to reduce joint inflammation.",
-        "Capsules": "Purchase standardized shallaki extract capsules, or fill capsules with shallaki powder using a capsule-filling machine. Take 1–2 capsules (300–500 mg each) with water after meals, following label instructions."
-      },
+      "preparation": "Powder, Capsules",
       "dosage": "300–500 mg 2–3 times/day",
       "safety": "Very safe anti-inflammatory"
     },
     {
       "name": "Tagara",
       "latinName": "Valeriana wallichii",
-      "image": "tagara.jpg",
+      "image": "images/tagara.jpg",
       "partsUsed": "Root",
       "systems": ["Nervous"],
       "diseases": ["Insomnia", "Anxiety"],
-      "preparation": {
-        "Powder": "Dry tagara roots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm milk or water and consume at bedtime to promote sleep and reduce anxiety.",
-        "Decoction": "Boil 1–2 teaspoons of tagara root powder or 10 g of dried root in 2 cups of water until reduced to 1 cup. Strain and drink warm at bedtime to aid relaxation."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "1–3 g at bedtime",
       "safety": "Sedative effect"
     },
     {
       "name": "Talispatra",
       "latinName": "Abies spectabilis",
-      "image": "talispatra.jpg",
+      "image": "images/talispatra.jpg",
       "partsUsed": "Leaves",
       "systems": ["Respiratory"],
       "diseases": ["Asthma", "Bronchitis"],
-      "preparation": {
-        "Powder": "Dry talispatra leaves in shade, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with honey or warm water and consume once daily to support respiratory health.",
-        "Decoction": "Boil 1–2 teaspoons of talispatra leaf powder or 10 g of dried leaves in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to alleviate asthma or bronchitis."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "1–3 g/day",
       "safety": "Expectorant"
     },
     {
       "name": "Twak",
       "latinName": "Cinnamomum zeylanicum",
-      "image": "twak.jpg",
+      "image": "images/twak.jpg",
       "partsUsed": "Bark",
       "systems": ["Digestive"],
       "diseases": ["Indigestion", "Cold"],
-      "preparation": {
-        "Powder": "Grind dried cinnamon bark into a fine powder and sieve. Mix 1/2–1 teaspoon of powder with warm water or honey and consume once daily after meals to aid digestion.",
-        "Decoction": "Boil 1/2–1 teaspoon of cinnamon bark powder or 5 g of dried bark in 2 cups of water until reduced to 1 cup. Strain and drink warm once daily in the morning to support digestion and warm the body."
-      },
+      "preparation": "Powder, Decoction",
       "dosage": "1–3 g/day",
       "safety": "Heating effect"
     },
     {
       "name": "Vamsha",
       "latinName": "Bambusa arundinacea",
-      "image": "vamsha.jpg",
+      "image": "images/vamsha.jpg",
       "partsUsed": "Young shoots",
       "systems": ["Respiratory"],
       "diseases": ["Cough", "Bronchitis"],
-      "preparation": {
-        "Juice": "Blend 20–30 g of fresh vamsha young shoots with 1/4 cup of water, strain through a muslin cloth, and collect the juice. Mix 10–20 ml of juice with water or honey and drink once daily in the morning to support respiratory health.",
-        "Powder": "Dry vamsha young shoots in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or honey and consume once daily to alleviate cough."
-      },
+      "preparation": "Juice, Powder",
       "dosage": "Juice: 10–20 ml/day",
       "safety": "Cooling effect"
     },
     {
       "name": "Vasa",
       "latinName": "Adhatoda vasica",
-      "image": "vasa.jpg",
+      "image": "images/vasa.jpg",
       "partsUsed": "Leaves",
       "systems": ["Respiratory"],
       "diseases": ["Asthma", "Bronchitis"],
-      "preparation": {
-        "Juice": "Blend 10–15 g of fresh vasa leaves with 1/4 cup of water, strain through a muslin cloth, and collect the juice. Mix 5–10 ml of juice with honey and drink once daily in the morning to support respiratory health.",
-        "Powder": "Dry vasa leaves in shade, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with warm water or honey and consume once daily to alleviate asthma or bronchitis."
-      },
+      "preparation": "Juice, Powder",
       "dosage": "Juice: 5–10 ml/day",
       "safety": "May cause nausea in high doses"
     },
     {
       "name": "Vidanga",
       "latinName": "Embelia ribes",
-      "image": "vidanga.jpg",
+      "image": "images/vidanga.jpg",
       "partsUsed": "Fruit",
       "systems": ["Digestive"],
       "diseases": ["Worms", "Indigestion"],
-      "preparation": {
-        "Powder": "Dry vidanga fruits in shade, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with warm water or honey and consume once daily after meals to support digestion and eliminate worms.",
-        "Pills": "Purchase vidanga tablets from a trusted supplier, or compress vidanga powder into pills using a tablet press. Take 1–2 pills (500 mg each) with water after meals, following label instructions."
-      },
+      "preparation": "Powder, Pills",
       "dosage": "1–3 g/day",
       "safety": "Antiparasitic"
     },
     {
       "name": "Yava",
       "latinName": "Hordeum vulgare",
-      "image": "yava.jpg",
+      "image": "images/yava.jpg",
       "partsUsed": "Seeds",
       "systems": ["Digestive"],
       "diseases": ["Obesity", "Diabetes"],
-      "preparation": {
-        "Water": "Soak 50–100 g of yava seeds in water overnight. Boil in 2 cups of water until soft, strain, and drink the water once daily in the morning to support metabolism and digestion.",
-        "Porridge": "Cook 50–100 g of yava seeds with 2–3 cups of water until soft to make a porridge. Add spices like cumin or a pinch of salt for flavor. Eat once daily as a meal to manage weight and blood sugar."
-      },
+      "preparation": "Water, Porridge",
       "dosage": "50–100 g/day",
       "safety": "Very safe food-grade"
     },
     {
       "name": "Haridra",
       "latinName": "Curcuma longa",
-      "image": "haridra.jpg",
+      "image": "images/haridra.jpg",
       "partsUsed": "Rhizome",
       "systems": ["Anti-inflammatory"],
       "diseases": ["Arthritis", "Wounds"],
-      "preparation": {
-        "Paste": "Grind fresh haridra rhizomes with a small amount of water to form a smooth paste, or mix 1–2 teaspoons of haridra powder with water or rose water. Apply to wounds or inflamed joints, or mix 1/4 teaspoon with honey for internal use to reduce inflammation.",
-        "Powder": "Dry haridra rhizomes in the sun or a dehydrator, grind into a fine powder, and sieve. Mix 1/2–1 teaspoon of powder with warm milk or water, adding a pinch of black pepper for absorption, and consume 1–2 times daily."
-      },
+      "preparation": "Paste, Powder",
       "dosage": "1–3 g/day",
       "safety": "Safe even in high doses"
     },
     {
       "name": "Jambu",
       "latinName": "Syzygium cumini",
-      "image": "jambu.jpg",
+      "image": "images/jambu.jpg",
       "partsUsed": "Seeds, Fruit",
       "systems": ["Metabolic"],
       "diseases": ["Diabetes", "Diarrhea"],
-      "preparation": {
-        "Powder": "Dry jambu seeds in shade, grind into a fine powder, and sieve. Mix 1–2 teaspoons of powder with warm water or milk and consume once daily before meals to manage blood sugar or diarrhea.",
-        "Juice": "Blend 2–3 fresh jambu fruits with 1/4 cup of water, strain through a muslin cloth, and collect the juice. Mix 10–20 ml of juice with water and drink once daily in the morning to support metabolic health."
-      },
+      "preparation": "Powder, Juice",
       "dosage": "Seed powder: 3–6 g/day",
       "safety": "Astringent effect"
     },
     {
       "name": "Kumari",
       "latinName": "Aloe vera",
-      "image": "kumari.jpg",
+      "image": "images/kumari.jpg",
       "partsUsed": "Gel, Latex",
       "systems": ["Digestive", "Skin"],
       "diseases": ["Constipation", "Burns"],
-      "preparation": {
-        "Gel": "Cut a fresh aloe vera leaf, remove the outer skin, and scoop out the clear gel. Blend 1–2 tablespoons of gel with water or juice and consume once daily in the morning for digestive health, or apply directly to burns or skin for healing.",
-        "Juice": "Blend 2–3 tablespoons of fresh aloe vera gel with 1 cup of water or citrus juice, strain if desired, and drink 10–20 ml once daily in the morning to support digestion and skin health."
-      },
+      "preparation": "Gel, Juice",
       "dosage": "Juice: 10–20 ml/day",
       "safety": "Latex is purgative; use gel externally"
     }
