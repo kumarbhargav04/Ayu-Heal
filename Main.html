@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayu-Heal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Main-style.css">
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+<body>
+ <div class="container">
+    <header class="header-sticky">
+      <div class="brand" aria-label="Site branding">
+        <div class="brand-text">
+          <h1 class="brand-title">
+            <div class="logo" aria-hidden="true">
+             <i class='bxr  bx-leaf' ></i>
+            </div>
+            Ayu-Heal
+          </h1>
+         <div class="tagline"><i>Search plants ↔ diseases • learn uses, prep & safety</i></div>
+       </div>
+     </div>
+      
+      <div class="header-controls">
+        <div class="profile-dropdown">
+          <button class="profile-btn">
+            <i class="fas fa-user-circle"></i>
+          </button>
+          <div class="dropdown-menu">
+            <a href="Profile.html" class="dropdown-item">
+              <i class='bxr  bx-user'  ></i> 
+              Profile
+            </a>
+            <a href="#" id="logoutBtn" class="dropdown-item logout-item">
+              <i class="fas fa-sign-out-alt"></i>
+              Logout
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Search Section -->
+    <div class="search-section">
+      <div class="search-controls">
+        <div class="search-bar">
+          <i class="fas fa-search search-icon"></i>
+          <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Search for a plant (e.g., Tulsi) or disease (e.g., Diabetes)..." 
+            autocomplete="off"
+          >
+          <button id="clearSearchBtn" class="clear-search"><i class="fas fa-times"></i></button>
+          <button id="voiceSearchBtn" class="voice-search"><i class='bxr  bx-microphone'  ></i></button>
+        </div>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+
+      <div class="filter-options">
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all"><i class="fas fa-seedling"></i> By Plant</button>
+          <button class="filter-tab" data-filter="disease"><i class="fas fa-heartbeat"></i> By Disease</button>
+        </div>
+
+        <button id="favoritesBtn" class="favorites-btn">
+          <i class="fas fa-heart"></i> Favorites
+        </button>
+
+        <!-- Body Systems Dropdown -->
+        <div class="body-systems-dropdown">
+          <button class="body-systems-toggle">All Body Systems</button>
+          <div class="body-systems-menu">
+            <button class="body-system-option selected" data-system="all">All Body Systems</button>
+            <button class="body-system-option" data-system="Nervous">Nervous System</button>
+            <button class="body-system-option" data-system="Respiratory">Respiratory System</button>
+            <button class="body-system-option" data-system="Digestive">Digestive System</button>
+            <button class="body-system-option" data-system="Cardiovascular">Cardiovascular System</button>
+            <button class="body-system-option" data-system="Immune">Immune System</button>
+            <button class="body-system-option" data-system="Skeletal">Skeletal System</button>
+            <button class="body-system-option" data-system="Muscular">Muscular System</button>
+            <button class="body-system-option" data-system="Integumentary">Integumentary System</button>
+            <button class="body-system-option" data-system="Endocrine">Endocrine System</button>
+            <button class="body-system-option" data-system="Urinary">Urinary System</button>
+            <button class="body-system-option" data-system="Reproductive">Reproductive System</button>
+          </div>
+        </div>
+
+        <button id="resetBtn" class="reset-btn">
+          <i class="fas fa-redo"></i> Reset Filters
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Grid -->
+    <div class="results-grid" id="resultsGrid">
+      <!-- Plant cards will be generated here -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p class="disclaimer">
+        <i class="fas fa-exclamation-circle"></i> 
+        This information is for educational purposes only. Consult a healthcare professional before using any herbal remedies.
+      </p>
+    </footer>
+  </div>
+
+  <!-- Modal -->
+  <div id="plantModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-header">
+        <h2 id="modalTitle"></h2>
+        <p class="latin-name" id="modalLatinName"></p>
+      </div>
+      <div class="modal-body">
+        <div class="modal-image" id="modalImage"></div>
+        <div class="modal-details">
+          <div class="detail-group">
+            <h3><i class="fas fa-leaf"></i> About</h3>
+            <p id="modalDescription"></p>
+          </div>
+          
+          <div class="detail-group">
+            <h3><i class="fas fa-heartbeat"></i> Treated Conditions</h3>
+            <ul id="modalDiseases"></ul>
+          </div>
+          
+          <div class="detail-group">
+            <h3><i class="fas fa-mortar-pestle"></i> Preparation & Usage</h3>
+            <p id="modalPreparation"></p>
+          </div>
+          
+          <div class="detail-group">
+            <h3><i class="fas fa-syringe"></i> Dosage</h3>
+            <p id="modalDosage"></p>
+          </div>
+          
+          <div class="detail-group warning">
+            <h3><i class="fas fa-exclamation-triangle"></i> Safety Information</h3>
+            <p id="modalSafety"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Curtain for theme transition -->
+  <div class="curtain"></div>
+
+  <!-- Chatbot Container -->
+  <div class="chatbot-container">
+    <div class="chatbot-button" id="chatbotButton">
+      <i class="fas fa-comment-alt"></i>
+    </div>
+    <div class="chatbot-window" id="chatbotWindow">
+      <div class="chatbot-header">
+        <h3><i class="fas fa-robot"></i> AyurBot</h3>
+        <button class="chatbot-close" id="chatbotClose">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="message bot-message">
+          Hello! I'm AyurBot, your Ayurvedic assistant. How can I help you today?
+        </div>
+      </div>
+      <div class="chatbot-input">
+        <input type="text" id="chatbotInput" placeholder="Type your message here...">
+        <button id="chatbotSend">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="Main-script.js"></script>
+</body>
+</html>

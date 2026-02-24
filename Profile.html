@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile - Ayu-Heal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Main-style.css">
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <header class="header-sticky">
+      <div class="brand" aria-label="Site branding">
+        <div class="brand-text">
+          <h1 class="brand-title">
+            <div class="logo" aria-hidden="true">
+              <i class='bxr  bx-leaf' ></i>
+            </div>
+            Ayu-Heal
+          </h1>
+        </div>
+      </div>
+      
+      <div class="header-controls">
+        <!-- Theme toggle button -->
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        
+        <div class="profile-dropdown">
+          <button class="profile-btn">
+            <i class="fas fa-user-circle"></i>
+          </button>
+          <div class="dropdown-menu">
+            <a href="Main.html" class="dropdown-item">
+              <i class='bxr  bx-home'  ></i> 
+              Home
+            </a>
+            <a href="#" id="logoutBtn" class="dropdown-item logout-item">
+              <i class="fas fa-sign-out-alt"></i>
+              Logout
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Profile Section -->
+    <div class="profile-section">
+      <div class="profile-card">
+        <div class="profile-header">
+          <div class="profile-avatar">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <h2>User Profile</h2>
+        </div>
+        
+        <div class="profile-details">
+          <div class="detail-group">
+            <label for="username">Username</label>
+            <div class="input-group">
+              <input type="text" id="username" value="JohnDoe" readonly>
+              <button class="edit-btn" data-field="username">
+                <i class="fas fa-edit"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="detail-group">
+            <label for="email">Email Address</label>
+            <div class="input-group">
+              <input type="email" id="email" value="johndoe@example.com" readonly>
+              <button class="edit-btn" data-field="email">
+                <i class="fas fa-edit"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="profile-actions">
+          <button id="saveChangesBtn" class="save-btn" disabled>Save Changes</button>
+          <button id="cancelChangesBtn" class="cancel-btn" disabled>Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Curtain for theme transition -->
+  <div class="curtain"></div>
+
+  <script>
+    // Get user data from localStorage or use default values
+    let userData = JSON.parse(localStorage.getItem('userData')) || {
+      username: 'JohnDoe',
+      email: 'johndoe@example.com'
+    };
+
+    // DOM Elements
+    const usernameInput = document.getElementById('username');
+    const emailInput = document.getElementById('email');
+    const editButtons = document.querySelectorAll('.edit-btn');
+    const saveBtn = document.getElementById('saveChangesBtn');
+    const cancelBtn = document.getElementById('cancelChangesBtn');
+    const profileDropdown = document.querySelector('.profile-dropdown');
+    const profileBtn = document.querySelector('.profile-btn');
+    const themeToggle = document.getElementById('themeToggle');
+    const curtain = document.querySelector('.curtain');
+
+    // Initialize the page
+    function init() {
+      // Populate user data
+      usernameInput.value = userData.username;
+      emailInput.value = userData.email;
+      
+      // Set up event listeners
+      setupEventListeners();
+      
+      // Apply theme from localStorage (synchronized with main page)
+      const isDarkMode = localStorage.getItem('darkMode') === 'true';
+      applyTheme(isDarkMode);
+    }
+
+    // Set up event listeners
+    function setupEventListeners() {
+      // Edit buttons
+      editButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const field = e.currentTarget.dataset.field;
+          const input = document.getElementById(field);
+          
+          input.removeAttribute('readonly');
+          input.focus();
+          saveBtn.disabled = false;
+          cancelBtn.disabled = false;
+        });
+      });
+      
+      // Save changes button
+      saveBtn.addEventListener('click', saveChanges);
+      
+      // Cancel changes button
+      cancelBtn.addEventListener('click', cancelChanges);
+      
+      // Profile dropdown
+      profileBtn.addEventListener('click', () => {
+        profileDropdown.classList.toggle('active');
+      });
+      
+      // Close dropdown when clicking outside
+      window.addEventListener('click', (e) => {
+        if (!profileBtn.contains(e.target)) {
+          profileDropdown.classList.remove('active');
+        }
+      });
+      
+      // Theme toggle
+      themeToggle.addEventListener('click', toggleTheme);
+      
+      // Input changes
+      usernameInput.addEventListener('input', () => {
+        saveBtn.disabled = false;
+        cancelBtn.disabled = false;
+      });
+      
+      emailInput.addEventListener('input', () => {
+        saveBtn.disabled = false;
+        cancelBtn.disabled = false;
+      });
+    }
+
+    // Save changes to user data
+    function saveChanges() {
+      userData.username = usernameInput.value;
+      userData.email = emailInput.value;
+      
+      // In a real application, you would send this to your backend
+      localStorage.setItem('userData', JSON.stringify(userData));
+      
+      // Reset UI
+      usernameInput.setAttribute('readonly', true);
+      emailInput.setAttribute('readonly', true);
+      saveBtn.disabled = true;
+      cancelBtn.disabled = true;
+      
+      // Show success message (you could implement a toast notification)
+      alert('Profile updated successfully!');
+    }
+
+    // Cancel changes
+    function cancelChanges() {
+      // Revert to original values
+      usernameInput.value = userData.username;
+      emailInput.value = userData.email;
+      
+      // Reset UI
+      usernameInput.setAttribute('readonly', true);
+      emailInput.setAttribute('readonly', true);
+      saveBtn.disabled = true;
+      cancelBtn.disabled = true;
+    }
+
+    // Toggle theme
+    function toggleTheme() {
+      const isDarkMode = localStorage.getItem('darkMode') === 'true';
+      const newDarkMode = !isDarkMode;
+      
+      // Show curtain for smooth transition
+      curtain.classList.add('animate');
+      curtain.classList.add(newDarkMode ? 'dark' : 'light');
+      
+      setTimeout(() => {
+        applyTheme(newDarkMode);
+        localStorage.setItem('darkMode', newDarkMode);
+        
+        setTimeout(() => {
+          curtain.classList.remove('animate');
+          curtain.classList.remove('dark', 'light');
+        }, 600);
+      }, 50);
+    }
+
+    // Apply theme
+    function applyTheme(isDarkMode) {
+      if (isDarkMode) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+      }
+    }
+
+    // Logout functionality
+    function handleLogout() {
+      // Clear user data from localStorage
+      localStorage.removeItem('userToken');
+      localStorage.removeItem('userData');
+      
+      // Redirect to login page
+      window.location.href = 'Log-Reg.html';
+    }
+
+    // Add event listener to logout button
+    document.addEventListener('DOMContentLoaded', function() {
+      const logoutBtn = document.getElementById('logoutBtn');
+      if (logoutBtn) {
+        logoutBtn.addEventListener('click', handleLogout);
+      }
+      
+      // Initialize the page
+      init();
+    });
+  </script>
+</body>
+</html>
