@@ -72,12 +72,5 @@ Storage:
 
 ---
 
-## Getting Started
-
-Ayu-Heal does not require any frameworks, package managers, or build tools.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/ayu-heal.git
-cd ayu-heal/Final\ Showdown
+## Credits
+Built with the help of @kumarbhargav04 (https://github.com/kumarbhargav04)
