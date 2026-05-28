@@ -58,7 +58,7 @@ The platform allows users to explore medicinal plants, search by disease or plan
 Frontend:
 - HTML5
 - CSS3
-- Vanilla JavaScript (ES6+)
+- JavaScript 
 
 Icons and Fonts:
 - Font Awesome
