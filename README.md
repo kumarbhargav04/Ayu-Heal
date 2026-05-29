@@ -74,3 +74,11 @@ Storage:
 
 ## Credits
 Built with the help of @kumarbhargav04 (https://github.com/kumarbhargav04)
+
+---
+
+## 👨‍💻 Author
+
+**Vinesh**
+
+Built with ❤️ 
