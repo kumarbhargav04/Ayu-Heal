@@ -73,7 +73,7 @@ Storage:
 ---
 
 ## Credits
-Built with the help of @kumarbhargav04 (https://github.com/kumarbhargav04)
+Co-developed with @kumarbhargav04 (https://github.com/kumarbhargav04)
 
 ---
 
