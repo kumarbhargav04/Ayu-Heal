@@ -71,11 +71,6 @@ Storage:
   - User favorites
 
 ---
-
-## Credits
-Co-developed with @kumarbhargav04 (https://github.com/kumarbhargav04)
-
----
 # Ayu-Heal
 
 Ayu-Heal is a modern interactive web application based on the principles of Ayurveda. It functions as a digital encyclopedia of medicinal plants, providing detailed information about their uses, benefits, preparation methods, dosages, and safety guidelines.
